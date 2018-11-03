@@ -13,10 +13,8 @@ int main()
     x=a;
     y=b;
 
-    while (progres)
-    {
-        if (x!=y)
-        {
+    while (progres){
+        if (x!=y){
             if (x<y)
             {
                 x=x+a;
@@ -29,5 +27,5 @@ int main()
         else
             progres=false;
     }
-    cout<< x;
+    cout<< x<< " Kali Perulangan";
 }
